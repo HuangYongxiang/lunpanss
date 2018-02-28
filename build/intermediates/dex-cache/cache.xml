@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\CloudMusic\LuckPan-master\lunpan\okhttputils\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fb9245b79358970f34ce6a2993e32bcfcf5c75bf">
+        <dex dex="E:\CloudMusic\LuckPan-master\lunpan\app\build\intermediates\pre-dexed\debug\classes_62f736ab79b0f88e115eb250e73ad816c88955aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\CloudMusic\LuckPan-master\lunpan\app\libs\SaaS_AppAnalytics_Android_SDK_V4.0.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf7a583ded3bb4d0b79f69f234f6ec1fa7009f59">
+        <dex dex="E:\CloudMusic\LuckPan-master\lunpan\app\build\intermediates\pre-dexed\debug\SaaS_AppAnalytics_Android_SDK_V4.0.13_8172e3321290b4bd020bcbfc180b96e555b6eb17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\CloudMusic\LuckPan-master\lunpan\app\libs\Android_Map3D_SDK_V5.6.0_20171128.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a80ce21469fb8217142cadbfb09751ee695ec4d3">
+        <dex dex="E:\CloudMusic\LuckPan-master\lunpan\app\build\intermediates\pre-dexed\debug\Android_Map3D_SDK_V5.6.0_20171128_288444d9633a01e2f6f58844d72070223b81fe46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\CloudMusic\LuckPan-master\lunpan\banner\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fd51d53e661aa43ef5d53bbcb24d42c9c13e1171">
+        <dex dex="E:\CloudMusic\LuckPan-master\lunpan\app\build\intermediates\pre-dexed\debug\classes_5fb37cf9c47e7e1601d9d3229fe7bd484d8742d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\CloudMusic\LuckPan-master\lunpan\app\libs\AMap_Location_V3.7.0_20171218.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a975b5ea3299f22cf218a27abe4d25ed86f859de">
+        <dex dex="E:\CloudMusic\LuckPan-master\lunpan\app\build\intermediates\pre-dexed\debug\AMap_Location_V3.7.0_20171218_ed10ea6973436648d2b470d72e5870603aa4f6b5.jar" />
+    </item>
+
+</items>

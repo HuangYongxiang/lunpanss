@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+       <!-- <item>10,红,包</item>
+        <item>1,红,包</item>
+        <item>2,红,包</item>
+        <item>3,红,包</item>
+        <item>4,红,包</item>
+        <item>5,红,包</item>
+        <item>6,红,包</item>
+        <item>7,红,包</item>
+        <item>8,红,包</item>
+        <item>9,红,包</item>-->
+      <!--  <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>
+        <item>红,包</item>-->
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+        <item>广,告</item>
+    </string-array>
+
+    <string-array name="icons">
+        <item>action</item>
+        <item>adventure</item>
+        <item>combat</item>
+        <item>moba</item>
+        <item>other</item>
+        <item>role</item>
+        <item>sports</item>
+        <item>words</item>
+        <item>words</item>
+        <item>words</item>
+    </string-array>
+
+
+</resources>

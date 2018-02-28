@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xianlong.lunpan">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <!--<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />-->
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/lun_logo2"
+        android:label="@string/app_name"
+        android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity2"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MoneyActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MoneyActivity2"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+        android:name=".activity.SyActivity"
+        android:windowSoftInputMode="adjustPan|stateHidden"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.InfoActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.InfoActivitys"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WlActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.XwActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CpActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TqActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AdDetailActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CpDetailActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaoActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GgActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CsActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TouchTest"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TjyjActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Tj_Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Tj_Activity2"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <!-- 设置key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="2b56e2d0119d1da76a5c63f18b14298a"/>
+        <!-- 定位需要的服务 -->
+        <service android:name="com.amap.api.location.APSService">
+        </service>
+        <service android:name="com.talkingdata.sdk.TDAntiCheatingService"
+            android:process="com.talkingdata.sdk.TDAntiCheatingService">  <!--用户质量评估Service可以配置在主进程或者单独进程-->
+            <intent-filter>
+                <action android:name="com.talkingdata.sdk.TDAntiCheatingService" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="TD_APP_ID" android:value="2298A3EE3928407C991D80D3CBF1EB51" />
+        <meta-data android:name="TD_CHANNEL_ID" android:value="tencent" />
+    </application>
+
+</manifest>

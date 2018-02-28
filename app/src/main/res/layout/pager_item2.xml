@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="136dp"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/garys"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="请输入内容"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/text4"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ellipsize="end"
+                android:gravity="top"
+                android:hint="请输入内容大家啊速度放到沙发上的放松放松卡就是的淡手机卡的好看撒淡淡的大撒事实上事实上身上事实上身上的多洒大地淡淡淡的淡淡的淡淡的淡淡的淡淡的淡淡的大家卡是的哈哈哈大家卡上的的卡就是打啊好的卡上打开撒多洒大地盛大的盛大的大大大大说的撒旦"
+                android:lineSpacingExtra="5dp"
+                android:lines="3"
+                android:textColorHint="@color/gary"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:hint="请输入内容"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorGray"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bk"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:gravity="center"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bk"
+            />
+    </FrameLayout>
+</LinearLayout>
